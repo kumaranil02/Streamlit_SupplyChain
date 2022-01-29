@@ -14,7 +14,7 @@ html5lib==1.0.1
 idna==2.8
 imageio==2.5.0
 imagesize==1.1.0
-importlib-metadata==0.0.0
+importlib-metadata==0.5
 ipykernel==6.7.0
 ipython==7.31.1
 ipython-genutils==0.2.0
