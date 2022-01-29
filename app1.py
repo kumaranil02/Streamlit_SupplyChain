@@ -4,6 +4,7 @@ import itertools
 import pandas as pd
 import gurobipy as gp
 from gurobipy import GRB
+st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
 st.title("Supply Network Design")
