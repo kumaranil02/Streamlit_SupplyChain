@@ -14,7 +14,7 @@ pd.set_option('display.float_format', lambda x: '%.5f' % x)
 pd.set_option('display.max_columns', None)
 
 st.set_page_config(
-    layout='wide',  page_title='Supply Chain Network Design', page_icon='🚚')
+    layout='wide',  page_title='SupplyChain Network Design', page_icon='🚚')
 
 
 # [theme]
