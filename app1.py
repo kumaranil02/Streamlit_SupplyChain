@@ -58,12 +58,16 @@ st.markdown(
     """,
     unsafe_allow_html=True,)
 
-r1,r2= st.columns([4,2])
-with r1:
-  st.title("Supply Network Design")
+st.image(Image.open('n1.jpg'))
+
+# r1,r2= st.columns([4,2])
+# with r1:
+#   st.title("Supply Network Design")
   
-with r2:
-  st.image(Image.open('t1.jpg'))
+# with r2:
+#   st.image(Image.open('t1.jpg'))
+
+
 
 im = Image.open('scm.jpg')
 st.write("")
@@ -74,10 +78,10 @@ st.write("")
 image = Image.open('IMT.jpg')
 
 st.sidebar.image(image)
-st.sidebar.write("")
-st.sidebar.write("Developed by: Sunil Kumar")
+st.sidebar.markdown("### Developed by:\n #   **Sunil Kumar** \n ### Roll -200301014")
 st.sidebar.image(Image.open('pic.jpg'))
-
+st.sidebar.write("")
+st.sidebar.image(Image.open('pic 2.png'))
 c1,c2,c3 = st.columns(3)
 
 #st.write('The supply locations entered are',supply)
@@ -215,11 +219,9 @@ st.subheader("The Suggested Optimized Costs are ")
 st.pyplot(figsize=(5, 5))
 #plt.show()
 st.write("")
-st.subheader("Submitted By:")
-l1,l2= st.columns([3,1])
+l1,l2,l3= st.columns([1,2,1])
 
-with l1:
-  st.image(Image.open('image_1.jpg'))
+
   
 with l2:
   st.image(Image.open('thank.jpg'))
