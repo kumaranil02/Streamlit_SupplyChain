@@ -7,7 +7,9 @@ from gurobipy import GRB
 st.set_option('deprecation.showPyplotGlobalUse', False)
 
 
-st.title("Supply Network Design")
+#st.title("Supply Network Design")
+
+st.title("Supply Network Design - SUNIL")
 
 from PIL import Image
 image = Image.open('IMT.jpg')
